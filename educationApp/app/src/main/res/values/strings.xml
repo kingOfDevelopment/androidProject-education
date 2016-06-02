@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Grade 10 Science</string>
+    <string name="ques_name"></string>
+    <string name="res_name">Result</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_chemistry">Chemical Bonding</string>
+    <string name="action_physics">Physics</string>
+    <string name="action_maths">Maths</string>
+    <string name="cate_name">Grade 10 Science Themes</string>
+    <string name="action_blend">What is blended learning</string>
+    <string name="action_about">About us</string>
+    <string name="blend_name">What is blended learning?</string>
+    <string name="about_name">About</string>
+    <string name="action_result">Results</string>
+    <string name="action_theme">Theme</string>
+</resources>

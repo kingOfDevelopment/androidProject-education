@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_theme" android:title="@string/action_theme"
+        android:orderInCategory="104" android:showAsAction="" />
+    <item android:id="@+id/action_result" android:title="@string/action_result"
+        android:orderInCategory="105" android:showAsAction="never" />
+    <item android:id="@+id/action_blend" android:title="@string/action_blend"
+        android:orderInCategory="106" android:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="@string/action_about"
+        android:orderInCategory="107" android:showAsAction="never" />
+
+
+</menu>

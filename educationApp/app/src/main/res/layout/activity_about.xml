@@ -1,0 +1,247 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.salony.RegisterFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Background"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="2dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="As school subjects, Maths and Science are vital key subjects for the future of South Africa. With Matric averages in these key subjects usually under 40%, this means that very few students will qualify to successfully do a career in these disciplines, where they need 70% or more in order to qualify and succeed in the faculty and tertiary institution of choice." />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="To be sure to qualify for the faculty and University of your choice, and to complete their tertiary studies, students in Grades 10, 11 &amp; 12 need to achieve marks above 70% (and preferably even more!) on a regular basis – especially in the Matric final Exams!"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/logo"
+                        android:layout_marginBottom="2dp"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Our Company"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Maths &amp; Science Marketing (MSM) is a company that has produced software to enable teachers, schools and learners to move into the 21st century – confident that they can meet the challenges with which they are faced." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="MSM has employed people who have run regional, Provincial, as well as National projects in Maths &amp; Science over the past 30 years and therefore has developed the knowledge, skills and expertise to develop materials &amp; methodology as well run effective, valuable projects throughout the country."/>
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="FREE downloads"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Providing all schools and individual learners with FREE access to all 100 000 pages, links, video clips and simulations – downloadable to computers, tablets and smart phones, we believe that we are enabling everyone to excel in these crucial subjects!" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Research indicates that 85% of the population (including previously disadvantaged learners) will have access to smart phones over the next 1 – 3 years. They will thus be able to access whatever they require from our website – even if they do not have DAILY access to the methodology and materials in the classroom situation."/>
+                <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Website sponsors"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Like Maths &amp; Science Marketing (MSM), the Actuarial Society of South Africa (ASSA) was very concerned about the poor Maths &amp; Science results in Matric over many years. They also recognised the fact that there is a tremendous shortage of skilled people – particularly in Actuarial Science, Accounting, Engineering, Medicine and other Mathematically and Scientifically related fields." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="In recognising this situation and the fact that this is going to lead to major problems in Commerce and Industry in SA in the years to come, ASSA has shown the wisdom and importance of initially supporting the concept of making all useful materials, methodology and links available to all learners and teachers for FREE!  This sponsorship ensured that no learner or teacher would have any reason to say they could not access all the necessary materials – since it is available for downloading to computers, tablets or mobiles that have access to the internet, for FREE."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="This initial sponsorship was so successful, that it is now necessary to find another sponsor who can make additional funding available – so that we can develop more materials and train more teachers across all 9 SA Provinces."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Please contact John at:  mwteach@mweb.co.za for more details."/>
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Projects"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Now that we have our excellent website (with all the FREE content and other materials) up and running, we are very keen, happy and prepared to run sponsored projects, using our wonderful materials and methodology for groups of schools in various parts of South Africa. These projects could be sponsored by Provincial Education Departments or private Corporate sponsorship."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Although learners and teachers are quite capable and able to use the materials and methodology directly from the website themselves, it is hugely beneficial if the Subject Advisors and teachers have been trained on how best to use the materials &amp; methodology."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Please contact us by means of one of the contacts below, if you would like more information about how we can run a sponsored Maths &amp; Science project for you or your organization."/>
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="The future for Maths &amp; Science in South Africa"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Maths &amp; Science Marketing would really love to make a serious major impact on the teaching and learning of Maths &amp; Science in South Africa – thereby enabling learners to qualify and go on to successfully complete a tertiary education.  South Africa desperately needs 1000s of properly qualified doctors, engineers, teachers, lawyers, accountants, actuaries and many more professional people." />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="We believe that we can make a serious difference in this country by providing top class materials and methodology to every learner who needs our materials and would like to become a professional in the future."/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sign"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Maths &amp; Science Educational Consultant"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Director: Maths &amp; Science Solutions"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Cape Town"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Phone: 021 534 8363"
+                 />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Cell:  084 2234 560"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Fax: 021 4130 112"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Email:  mwteach@mweb.co.za"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Website:  www.mathsandscience.com"
+                    />
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="If you do what you have always done, do not be surprised if you get what you have always got!"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="2dp"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
